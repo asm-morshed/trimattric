@@ -172,7 +172,7 @@
         margin: 0;
     }
     .seconddropdown .my-menu:hover .my-dropdown{
-        top: 100%;
+        top: 35%;
         visibility: visible;
         transition: .5s;
         opacity: 1;
