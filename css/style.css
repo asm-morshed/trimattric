@@ -111,6 +111,12 @@
     .navbar-light .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
+    .my-dropdown{
+        display: none;
+    }
+    .my-menu:hover .my-dropdown{
+        display: block;
+    }
 }
 
 .navbar-light .navbar-brand,
@@ -153,7 +159,6 @@
         left: 100%;
         width: 100%;
         top:150%;
-        display: block;
         flex-wrap: wrap;
         background: rgb(255, 255, 255);
         transition: .5s;
