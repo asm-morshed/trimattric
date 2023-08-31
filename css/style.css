@@ -111,9 +111,16 @@
     .navbar-light .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
-    /* .my-dropdown{
-        display: none;
-    } */
+    .my-dropdown{
+        /* display: none; */
+        border: 1px solid #EEEEEE;
+        width: 600px;
+        margin-left: 20px !important;
+    }
+    .my-dropdown a{
+        color: black;
+        
+    }
     
 }
 
