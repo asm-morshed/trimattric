@@ -87,14 +87,8 @@
     margin-left: 8px;
 }
 
-.navbar .dropdown-toggle-customize::after {
-    border: none;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    vertical-align: middle;
-    margin-left: 8px;
-}
+
+
 
 
 .navbar-light .navbar-nav .nav-link {
@@ -196,6 +190,14 @@
         visibility: visible;
         transition: .5s;
         opacity: 1;
+    }
+    .navbar .dropdown-toggle-customize::after {
+        border: none;
+        content: "\f105";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        vertical-align: middle;
+        margin-left: 8px;
     }
     
 }
