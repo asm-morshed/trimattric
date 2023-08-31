@@ -111,12 +111,10 @@
     .navbar-light .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
-    .my-dropdown{
+    /* .my-dropdown{
         display: none;
-    }
-    .my-menu:hover .my-dropdown{
-        display: block;
-    }
+    } */
+    
 }
 
 .navbar-light .navbar-brand,

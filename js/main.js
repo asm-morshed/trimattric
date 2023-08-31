@@ -85,6 +85,16 @@
     });
 
 
+    // For dropdown modified code multi level dropdown
+   
+    $(document).ready(function () {
+        $('.my-item').click(function () {
+            console.log('clicked from multi level dropdown')
+            // $('#targetElement').addClass('highlighted');
+        });
+    });
+
+
     // Portfolio isotope and filter
     var portfolioIsotope = $('.portfolio-container').isotope({
         itemSelector: '.portfolio-item',
